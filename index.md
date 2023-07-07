@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: home
-title: Just Do The Thing
+title: Links
 list_title: useful links :)
 ---
 
