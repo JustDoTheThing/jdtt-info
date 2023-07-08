@@ -1,6 +1,100 @@
-- name: underwear
+- name: Hair
   links:
-  - name: underwear.com
-    url: https://www.underwear.com/
-    where: Underwear.com
-    info: awokdawd
+  - name: Purple Rinse
+    url: https://www.instagram.com/purplerinsesalon/
+    where: City Centre
+    info: the end of your hairdresser trauma
+  - name: Riot Hearts
+    url: https://www.instagram.com/riotheartsltd/
+    where: City Centre
+    info: 
+  - name: Hex
+    url: https://www.instagram.com/hex_hairdressing
+    where: City Centre
+    info: 
+  - name: Melissa Timperyley
+    url: https://www.melissa-salons.com
+    where: City Centre
+    info: Inclusive
+  - name: Bae Chop
+    url: https://www.instagram.com/bae_chop
+    where: Mobile
+    info: 
+- name: Piercings
+  links:
+  - name: Holier Than Thou
+    url: https://www.instagram.com/holierthanthoumanchester/
+    where: City Centre
+    info: Fucking awesome humans and super trans friendly
+- name: Lashes
+  links:
+  - name: Lashes of Lilith
+    url: https://www.instagram.com/lashes_of_lilith/
+    where: City Centre
+    info: 
+- name: Tattoos
+  links:
+  - name: Holier Than Thou
+    url: https://www.instagram.com/holierthanthoumanchester/
+    where: City Centre
+    info: Fucking awesome humans and super trans friendly
+- name: Makeup
+  links:
+  - name: Born UK
+    url: https://born.uk.com/
+    where: City Centre
+    info: Makeup and Styling Studio
+  - name: Patti Baston
+    url: https://www.instagram.com/pattibaston/
+    where:
+    info: Makeup
+- name: Beautician
+  links:
+  - name: The Beauty Guru
+    url: https://www.instagram.com/thebeautygurusalon/
+    where: Media City
+    info: Botox, Brows, Skin.. lots, Super trans friendly
+  - name: Sophie at Shallows
+    url: https://booksy.com/en-gb/104332_pure-aesthetics-by-sophie-rn_aesthetic-medicine_628476_manchester
+    where: City Centre
+    info: Inclusive for fillers etc
+- name: Electrolysis
+  links:
+  - name: Siobhan
+    url: https://www.electrolysisbysiobhan.co.uk/home
+    where: Audenshaw
+    info: Fucking awesome human
+- name: Nails
+  links:
+  - name: Nails by Lyndsey
+    url: https://www.etsy.com/shop/NailsbyLyndsey
+    where: Audenshaw
+    info: Stick-on-nails
+- name: Clothes
+  links:
+  - name: Long Tall Sally
+    url: https://www.longtallsally.com/
+    where: Online
+    info: Shoes and Clothes for the taller woman
+- name: Underwear
+  links:
+  - name: FluidAgenda
+    url: https://www.etsy.com/shop/FluidAgenda
+    where: Online
+    info: Tucking panties & thongs
+  - name: Stripitback
+    url: https://www.etsy.com/uk/shop/Stripitback
+    where: Online
+    info: Gaff thongs
+  - name: Carmen Liu
+    url: https://www.carmenliulingerie.co.uk/
+    where: Online
+    info: Tucking briefs and thongs. Underwear for all. briefs, thongs, bralettes
+  - name: Zoah
+    url: https://zoah.shop/
+    where: Online
+    info: Tucking underwear and swimwear
+  - name: Urban Outfitters - Under Markie Seamless Ribbed Knickers
+    url: https://www.urbanoutfitters.com/en-gb/search?q=Out%20From%20Under%20Markie%20Seamless%20Ribbed%20Knickers
+    where: Online
+    info: Knickers (one style, not designed for trans women but a recommendation)

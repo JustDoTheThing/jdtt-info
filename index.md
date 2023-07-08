@@ -6,85 +6,13 @@ layout: home
 ---
 [Markdown Cheat Sheet](https://markdown.land/markdown-cheat-sheet)
 
-## Hair
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [Purple Rinse](https://www.instagram.com/purplerinsesalon/) | City Centre | the end of your hairdresser trauma |
-| [Riot Hearts](https://www.instagram.com/riotheartsltd/) | City Centre |  
-| [Hex](https://www.instagram.com/hex_hairdressing/) | City Centre | |
-| [Melissa Timperyley](https://www.melissa-salons.com/)| City Centre | Inclusive|
-| [Bae Chop](https://www.instagram.com/bae_chop) | Mobile | | 
-
-
-## Piercings
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [Holier Than Thou](https://www.instagram.com/holierthanthoumanchester/) | City Centre | Fucking awesome humans and super trans friendly |
-
-## Lashes
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [Lashes of Lilith](https://www.instagram.com/lashes_of_lilith/) | City Centre | |
-
-## Tattoos
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [Pippa](https://www.instagram.com/pippa.ink/) | City Centre | Awesome work!! |
-
-## Makeup
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [Born UK](https://born.uk.com/) | City Centre | Makeup and Styling Studio |
-| [Patti Baston](https://www.instagram.com/pattibaston/) | | Makeup |
-
-
-## Beautician
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [The Beauty Guru](https://www.instagram.com/thebeautygurusalon/) | Media City | Botox, Brows, Skin.. lots, Super trans friendly |
-| [Sophie at Shallows](https://booksy.com/en-gb/104332_pure-aesthetics-by-sophie-rn_aesthetic-medicine_628476_manchester) | City Centre | Inclusive for fillers etc|
-
-## Electrolysis
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [Siobhan](https://www.electrolysisbysiobhan.co.uk/home) | Audenshaw | Fucking awesome human | 
-
-## Nails
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [Nails by Lyndsey](https://www.etsy.com/shop/NailsbyLyndsey) | Audenshaw | Stick-on-nails | 
-
-
-## Clothes
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [Long Tall Sally](https://www.longtallsally.com/) | Online | Shoes and Clothes for the taller woman | 
-
-### Underwear
-
-| Name | Location | Description |
-| --- | --- | --- |
-| [FluidAgenda](https://www.etsy.com/shop/FluidAgenda) | Online | Tucking panties & thongs |
-| [Stripitback](https://www.etsy.com/uk/shop/Stripitback) | Online | Gaff thongs |
-| [Carmen Liu](https://www.carmenliulingerie.co.uk/) | Online | Tucking briefs and thongs. Underwear for all: briefs, thongs, bralettes |
-| [Zoah](https://zoah.shop/) | Online | Tucking underwear and swimwear |
-| [Urban Outfitters - Under Markie Seamless Ribbed Knickers](https://www.urbanoutfitters.com/en-gb/search?q=Out%20From%20Under%20Markie%20Seamless%20Ribbed%20Knickers) | Online | Knickers (one style, not designed for trans women but a recommendation) |
-
 {% for category in site.data.links %}
 
 ### {{ category.name }}
 
 | Name | Location | Description |
 | --- | --- | --- |
-{% for link in category.links %} | [{{link.name}}]({{link.url}}) | {{link.where}} | {{link.info}} |{% endfor %}
+{% for link in category.links %} | [{{link.name}}]({{link.url}}) | {{link.where}} | {{link.info}} |
+{% endfor %}
 
 {% endfor %}
