@@ -4,7 +4,7 @@ on:
     types: [opened]
 
 jobs:
-  create/ update:
+  create-update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
