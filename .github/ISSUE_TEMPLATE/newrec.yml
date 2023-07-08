@@ -1,9 +1,9 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: New recommendation
+description: Add a new recommendation to the list
+title: "[Recommendation]: "
+labels: []
 assignees:
-  - octocat
+  - billieem
 body:
   - type: input
     id: name
