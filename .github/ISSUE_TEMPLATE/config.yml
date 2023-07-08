@@ -1,0 +1,46 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Name of the recommendation
+    validations:
+      required: true
+    - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      description: Section of the recommendation
+      options:
+        - Hair
+        - Piercings
+        - Lashes
+        - Tattoos
+        - Makeup
+        - Beautician
+        - Electrolysis
+        - Nails
+        - Clothes
+        - Underwear
+    validations:
+      required: true
+  - type: input
+    id: Location
+    attributes:
+      label: Location
+      description: Location of the recommendation (e.g. City Centre, Online)
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: info
+      description: Further information about the recommendation
+    validations:
+      required: false
