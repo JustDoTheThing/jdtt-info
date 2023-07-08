@@ -1,0 +1,32 @@
+name: 'workflow'
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create/ update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Parse Issue Body
+        uses: peter-murray/issue-body-parser-action@v1
+        id: issue_body_parser
+        with:
+            github_token: ${{ secrets.TOKEN_MAIN }}
+            # This is assuming that you are triggering off the issue, otherwise you will need to know the issue number
+            issue_id: ${{ github.event.issue.number }}
+
+      - name: print
+        run: echo ${{fromJson(steps.issue_body_parser_request.outputs.payload)}}
+
+      # - name: Add issue data to yaml
+      #   uses: fjogeleit/yaml-update-action@main
+      #   with:
+      #     valueFile: '_data/links.yml'
+      #     propertyPath: ''
+      #     value: ${{ steps.image.outputs.version }}
+      #     branch: deployment/${{ steps.image.outputs.version }}
+      #     targetBranch: development
+      #     createPR: true
+      #     message: 'Update Image Version to ${{ steps.image.outputs.version }}' 
