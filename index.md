@@ -77,4 +77,14 @@ layout: home
 | [Stripitback](https://www.etsy.com/uk/shop/Stripitback) | Online | Gaff thongs |
 | [Carmen Liu](https://www.carmenliulingerie.co.uk/) | Online | Tucking briefs and thongs. Underwear for all: briefs, thongs, bralettes |
 | [Zoah](https://zoah.shop/) | Online | Tucking underwear and swimwear |
-| [Urban OUtfitters - Under Markie Seamless Ribbed Knickers](https://www.urbanoutfitters.com/en-gb/search?q=Out%20From%20Under%20Markie%20Seamless%20Ribbed%20Knickers) | Online | Knickers (one style, not designed for trans women but a recommendation) |
+| [Urban Outfitters - Under Markie Seamless Ribbed Knickers](https://www.urbanoutfitters.com/en-gb/search?q=Out%20From%20Under%20Markie%20Seamless%20Ribbed%20Knickers) | Online | Knickers (one style, not designed for trans women but a recommendation) |
+
+{% for category in site.data.links %}
+
+### {{ category.name }}
+
+| Name | Location | Description |
+| --- | --- | --- |
+{% for link in category.links %} | [{{link.name}}]({{link.url}}) | {{link.where}} | {{link.info}} |{% endfor %}
+
+{% endfor %}
