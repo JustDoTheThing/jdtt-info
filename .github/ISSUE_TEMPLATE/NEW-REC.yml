@@ -3,7 +3,7 @@ description: Add a new recommendation to the list
 title: "[Recommendation]: "
 labels: []
 assignees:
-  - billieem
+  - billiem
 body:
   - type: input
     id: name
@@ -12,7 +12,7 @@ body:
       description: Name of the recommendation
     validations:
       required: true
-    - type: dropdown
+  - type: dropdown
     id: section
     attributes:
       label: Section
