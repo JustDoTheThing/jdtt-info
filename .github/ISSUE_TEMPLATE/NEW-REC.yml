@@ -1,7 +1,7 @@
 name: New recommendation
 description: Add a new recommendation to the list
-title: "[Recommendation]: "
-labels: []
+title: "New recommendation"
+labels: ["recommendation"]
 assignees:
   - billiem
 body:
