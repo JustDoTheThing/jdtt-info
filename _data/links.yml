@@ -64,6 +64,16 @@
     url: https://www.electrolysisbysiobhan.co.uk/home
     where: Audenshaw
     info: Fucking awesome human
+- name: Laser
+  links:
+  - name: SKIN
+    url: https://www.sknclinics.co.uk/
+    where: City Centre
+    info: Two locations in Manchester, Albert Square and St Peter's Square, they do other skin treatments too
+  - name: Cypress Quay (Formally the Laser Lounge Media City)
+    url: https://cypressquay.com/
+    where: Media City
+    info: Laser hair removal, more expensive than SKN but people say it's better
 - name: Nails
   links:
   - name: Nails by Lyndsey
