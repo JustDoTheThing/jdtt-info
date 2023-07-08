@@ -1,12 +1,13 @@
 ---
 permalink: /
 layout: home
-title: Links
-list_title: useful links :)
+# title: Links
+# list_title: useful links :)
 ---
 [Markdown Cheat Sheet](https://markdown.land/markdown-cheat-sheet)
 
 ## Hair
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [Purple Rinse](https://www.instagram.com/purplerinsesalon/) | City Centre | the end of your hairdresser trauma |
@@ -17,21 +18,25 @@ list_title: useful links :)
 
 
 ## Piercings
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [Holier Than Thou](https://www.instagram.com/holierthanthoumanchester/) | City Centre | Fucking awesome humans and super trans friendly |
 
 ## Lashes
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [Lashes of Lilith](https://www.instagram.com/lashes_of_lilith/) | City Centre | |
 
 ## Tattoos
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [Pippa](https://www.instagram.com/pippa.ink/) | City Centre | Awesome work!! |
 
 ## Makeup
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [Born UK](https://born.uk.com/) | City Centre | Makeup and Styling Studio |
@@ -39,28 +44,33 @@ list_title: useful links :)
 
 
 ## Beautician
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [The Beauty Guru](https://www.instagram.com/thebeautygurusalon/) | Media City | Botox, Brows, Skin.. lots, Super trans friendly |
 | [Sophie at Shallows](https://booksy.com/en-gb/104332_pure-aesthetics-by-sophie-rn_aesthetic-medicine_628476_manchester) | City Centre | Inclusive for fillers etc|
 
 ## Electrolysis
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [Siobhan](https://www.electrolysisbysiobhan.co.uk/home) | Audenshaw | Fucking awesome human | 
 
 ## Nails
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [Nails by Lyndsey](https://www.etsy.com/shop/NailsbyLyndsey) | Audenshaw | Stick-on-nails | 
 
 
 ## Clothes
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [Long Tall Sally](https://www.longtallsally.com/) | Online | Shoes and Clothes for the taller woman | 
 
 ### Underwear
+
 | Name | Location | Description |
 | --- | --- | --- |
 | [FluidAgenda](https://www.etsy.com/shop/FluidAgenda) | Online | Tucking panties & thongs |
