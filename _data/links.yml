@@ -108,3 +108,13 @@
     url: https://www.urbanoutfitters.com/en-gb/search?q=Out%20From%20Under%20Markie%20Seamless%20Ribbed%20Knickers
     where: Online
     info: Knickers (one style, not designed for trans women but a recommendation)
+- name: GPs
+  links:
+  - name: Cornbrook
+    url: https://www.boundarymedicalpractice.co.uk/
+    where: Three Locations around the City Centre
+    info: Will do bridging prescriptions
+  - name: The Northern Sexual Health
+    url: https://thenorthernsexualhealth.co.uk/trans-and-gender-diverse/
+    where: not sure
+    info: Not a GP but a weekly clinic providing sexual health services to trans and gender diverse people.
