@@ -12,6 +12,8 @@ list_title: useful links :)
 | [Purple Rinse](https://www.instagram.com/purplerinsesalon/) | City Centre | the end of your hairdresser trauma |
 | [Riot Hearts](https://www.instagram.com/riotheartsltd/) | City Centre |  
 | [Hex](https://www.instagram.com/hex_hairdressing/) | City Centre | |
+| [Melissa Timperyley](https://www.melissa-salons.com/)| City Centre | Inclusive|
+| [Bae Chop](https://www.instagram.com/bae_chop) | Mobile | | 
 
 
 ## Piercings
@@ -29,15 +31,28 @@ list_title: useful links :)
 | --- | --- | --- |
 | [Pippa](https://www.instagram.com/pippa.ink/) | City Centre | Awesome work!! |
 
+## Makeup
+| Name | Location | Description |
+| --- | --- | --- |
+| [Born UK](https://born.uk.com/) | City Centre | Makeup and Styling Studio |
+| [Patti Baston](https://www.instagram.com/pattibaston/) | | Makeup |
+
+
 ## Beautician
 | Name | Location | Description |
 | --- | --- | --- |
 | [The Beauty Guru](https://www.instagram.com/thebeautygurusalon/) | Media City | Botox, Brows, Skin.. lots, Super trans friendly |
+| [Sophie at Shallows](https://booksy.com/en-gb/104332_pure-aesthetics-by-sophie-rn_aesthetic-medicine_628476_manchester) | City Centre | Inclusive for fillers etc|
 
 ## Electrolysis
 | Name | Location | Description |
 | --- | --- | --- |
 | [Siobhan](https://www.electrolysisbysiobhan.co.uk/home) | Audenshaw | Fucking awesome human | 
+
+## Nails
+| Name | Location | Description |
+| --- | --- | --- |
+| [Nails by Lyndsey](https://www.etsy.com/shop/NailsbyLyndsey) | Audenshaw | Stick-on-nails | 
 
 
 ## Clothes
