@@ -4,25 +4,37 @@ layout: home
 title: Links
 list_title: useful links :)
 ---
+[Markdown Cheat Sheet](https://markdown.land/markdown-cheat-sheet)
 
 ## Hair
+| Name | Location | Description |
+--- | --- | ---
+| [Purple Rinse](https://www.instagram.com/purplerinsesalon/) | City Centre | |
+| [Riot Hearts](https://www.instagram.com/riotheartsltd/) | |  
+| [Hex](https://www.instagram.com/hex_hairdressing/) | City Centre | |
 
-https://www.instagram.com/purplerinsesalon/  
-https://www.instagram.com/riotheartsltd/  
-https://www.instagram.com/hex_hairdressing/  
 
 ## Piercings
-
-https://www.instagram.com/holierthanthoumanchester/  
+| Name | Location | Description |
+--- | --- | ---
+[Holier Than Thou](https://www.instagram.com/holierthanthoumanchester/) | City Centre | Fucking awesome humans and super trans friendly |
 
 ## Lashes
-
-https://www.instagram.com/lashes_of_lilith/  
+| Name | Location | Description |
+--- | --- | ---
+[Lashes of Lilith](https://www.instagram.com/lashes_of_lilith/) | City Centre | |
 
 ## Tattoos
-
-https://www.instagram.com/pippa.ink/  
+| Name | Location | Description |
+--- | --- | ---
+[Pippa](https://www.instagram.com/pippa.ink/) | City Centre | Awesome work!!
 
 ## Beautician
+| Name | Location | Description |
+--- | --- | ---
+[The Beauty Guru](https://www.instagram.com/thebeautygurusalon/) | Media City | Botox, Brows, Skin.. lots, Super trans friendly |
 
-https://www.instagram.com/thebeautygurusalon/  
+## Electrolysis
+| Name | Location | Description |
+--- | --- | ---
+[Siobhan](https://www.electrolysisbysiobhan.co.uk/home) | Audenshaw | Fucking awesome human | 
