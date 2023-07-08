@@ -44,3 +44,12 @@ list_title: useful links :)
 | Name | Location | Description |
 | --- | --- | --- |
 | [Long Tall Sally](https://www.longtallsally.com/) | Online | Shoes and Clothes for the taller woman | 
+
+### Underwear
+| Name | Location | Description |
+| --- | --- | --- |
+| [FluidAgenda](https://www.etsy.com/shop/FluidAgenda) | Online | Tucking panties & thongs |
+| [Stripitback](https://www.etsy.com/uk/shop/Stripitback) | Online | Gaff thongs |
+| [Carmen Liu](https://www.carmenliulingerie.co.uk/) | Online | Tucking briefs and thongs. Underwear for all: briefs, thongs, bralettes |
+| [Zoah](https://zoah.shop/) | Online | Tucking underwear and swimwear |
+| [Urban OUtfitters - Under Markie Seamless Ribbed Knickers](https://www.urbanoutfitters.com/en-gb/search?q=Out%20From%20Under%20Markie%20Seamless%20Ribbed%20Knickers) | Online | Knickers (one style, not designed for trans women but a recommendation) |
