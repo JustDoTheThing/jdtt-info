@@ -38,3 +38,9 @@ list_title: useful links :)
 | Name | Location | Description |
 --- | --- | ---
 [Siobhan](https://www.electrolysisbysiobhan.co.uk/home) | Audenshaw | Fucking awesome human | 
+
+
+## Clothes
+| Name | Location | Description |
+--- | --- | ---
+[Long Tall Sally](https://www.longtallsally.com/) | Online | Shoes and Clothes for the taller woman | 
