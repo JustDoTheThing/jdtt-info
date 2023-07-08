@@ -1,7 +1,13 @@
-# plugins:
-# - jekyll-remote-theme
-# remote_theme: pages-themes/cayman@v0.2.0
 title: Just Do The Thing
-description: useful links:)
+# description: useful links:)
+
+instagram_username: justdothethingmcr
+
 theme: minima
-markdown: GFM
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
