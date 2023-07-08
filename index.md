@@ -9,7 +9,7 @@ list_title: useful links :)
 ## Hair
 | Name | Location | Description |
 | --- | --- | --- |
-| [Purple Rinse](https://www.instagram.com/purplerinsesalon/) | City Centre | |
+| [Purple Rinse](https://www.instagram.com/purplerinsesalon/) | City Centre | the end of your hairdresser trauma |
 | [Riot Hearts](https://www.instagram.com/riotheartsltd/) | City Centre |  
 | [Hex](https://www.instagram.com/hex_hairdressing/) | City Centre | |
 
