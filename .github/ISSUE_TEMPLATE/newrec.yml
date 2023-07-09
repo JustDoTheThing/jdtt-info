@@ -1,7 +1,7 @@
-name: New recommendation
+name: new-rec
 description: Add a new recommendation to the list
-title: "New recommendation"
-labels: ["newrec"]
+title: "Suggest a new recommendation"
+labels: ["new"]
 assignees:
   - billiem
 body:
@@ -28,6 +28,13 @@ body:
         - Nails
         - Clothes
         - Underwear
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: url
+      description: Link to the recommendation (social media/ website)
     validations:
       required: true
   - type: input

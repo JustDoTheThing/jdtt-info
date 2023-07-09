@@ -14,13 +14,22 @@ jobs:
         id: parse
 
       - run: echo ${{toJSON(steps.parse.outputs.data)}}
-      # - name: Add issue data to yaml
-      #   uses: fjogeleit/yaml-update-action@main
-      #   with:
-      #     valueFile: '_data/links.yml'
-      #     propertyPath: ''
-      #     value: ${{ steps.image.outputs.version }}
-      #     branch: deployment/${{ steps.image.outputs.version }}
-      #     targetBranch: development
-      #     createPR: true
-      #     message: 'Update Image Version to ${{ steps.image.outputs.version }}' 
+
+      - name: Add issue data to yaml
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          valueFile: '_data/links.yml'
+          propertyPath: ''
+          branch: master
+          targetBranch: master
+          createPR: true
+          message: 'Created PR for new link: ${{ steps.parse.outputs.data.name }}' 
+          changes: |
+            {
+              ${{ steps.parse.outputs.data.section }}.links.${{steps.parse.outputs.data.name}}: {
+                name: ${{ steps.parse.outputs.data.name }},
+                url: ${{ steps.parse.outputs.data.url }},
+                location: ${{ steps.parse.outputs.data.location }}
+                info: ${{ steps.parse.outputs.data.info }},
+              }
+            }
