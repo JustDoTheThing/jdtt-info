@@ -17,11 +17,11 @@ jobs:
 
       - name: echo data
         run: |
-          name=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .evento.text | sed 's/"//g')
-          section=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .site.text | sed 's/"//g')
-          url=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .tipo.text | sed 's/"//g')
-          location=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .local.text | sed 's/"//g')
-          info=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .mes.text | sed 's/"//g')
+          name=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .name.text | sed 's/"//g')
+          section=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .section.text | sed 's/"//g')
+          url=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .url.text | sed 's/"//g')
+          location=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .location.text | sed 's/"//g')
+          info=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .info.text | sed 's/"//g')
 
           echo "name: $name"
           echo "section: $section"
