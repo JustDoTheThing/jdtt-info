@@ -24,7 +24,6 @@ jobs:
           targetBranch: master
           createPR: true
           message: 'Created PR for new link: ${{ steps.parse.outputs.data.name }}' 
-          debug: true 
           changes: |
             {
               ${{ steps.parse.outputs.data.section }}.${{ steps.parse.outputs.data.name }}.info: ${{ steps.parse.outputs.data.info.text }}
