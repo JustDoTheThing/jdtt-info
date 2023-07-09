@@ -39,5 +39,6 @@ jobs:
           message: 'Created PR for new link: ${{ steps.extract.outputs.name }}' 
           changes: |
             {
+              ${{ steps.extract.outputs.section }}.${{ steps.extract.outputs.name }}: {},
               ${{ steps.extract.outputs.section }}.${{ steps.extract.outputs.name }}.name: ${{ steps.extract.outputs.name }}
             }
