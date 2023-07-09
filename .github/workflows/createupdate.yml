@@ -32,12 +32,15 @@ jobs:
         uses: fjogeleit/yaml-update-action@main
         with:
           valueFile: '_data/links.yml'
-          propertyPath: ''
-          branch: master
-          targetBranch: create-update-${{ github.sha }}
+          branch: create-update-${{ github.sha }}
+          targetBranch: master
           createPR: true
           message: 'Created PR for new link: ${{ steps.extract.outputs.name }}' 
           changes: |
             {
-              "${{ steps.extract.outputs.section }}.${{ steps.extract.outputs.name }}.info": "${{ steps.extract.outputs.info }}"
+              "${{ steps.extract.outputs.section }}.${{ steps.extract.outputs.name }}: {
+                "info": "${{ steps.extract.outputs.info }}",
+                "url": "${{ steps.extract.outputs.url }}",
+                 "location": "${{ steps.extract.outputs.location }}"
+              }
             }
