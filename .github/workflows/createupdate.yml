@@ -13,11 +13,13 @@ jobs:
         uses: zentered/issue-forms-body-parser@main
         id: parse
 
-      - run: echo ${{toJSON(steps.parse.outputs.data)}}
-      - run: echo ${{toJSON(steps.parse.outputs.data.name)}}
-      - run: echo ${{toJSON(steps.parse.outputs.data.name.text)}}
-      - run: echo ${{toJSON(steps.parse.outputs.data.name.info)}}
-      - run: echo ${{toJSON(steps.parse.outputs.data.name.info.title)}}
+      - run: echo ${{ steps.parse.outputs.data}}
+      - run: echo ${{ toJSON(steps.parse.outputs.data)}}
+      - run: echo ${{ toJSON(steps.read_issue_body.output.body)}}
+      - run: echo ${{ steps.parse.outputs.data.name}}
+      - run: echo ${{ steps.parse.outputs.data.name.text}}
+      - run: echo ${{ steps.parse.outputs.data.name.info}}
+      - run: echo ${{ steps.parse.outputs.data.name.info.title}}
 
       - name: Add issue data to yaml
         uses: fjogeleit/yaml-update-action@main
