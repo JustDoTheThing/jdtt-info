@@ -55,4 +55,4 @@ jobs:
                 ]
               }
             } + .
-          )' </tmp/your-yaml-file.yaml 
+          )' <_data/links.yml 
