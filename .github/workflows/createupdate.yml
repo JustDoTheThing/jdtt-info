@@ -14,6 +14,10 @@ jobs:
         id: parse
 
       - run: echo ${{toJSON(steps.parse.outputs.data)}}
+      - run: echo ${{toJSON(steps.parse.outputs.data.name)}}
+      - run: echo ${{toJSON(steps.parse.outputs.data.name.text)}}
+      - run: echo ${{toJSON(steps.parse.outputs.data.name.info)}}
+      - run: echo ${{toJSON(steps.parse.outputs.data.name.info.title)}}
 
       - name: Add issue data to yaml
         uses: fjogeleit/yaml-update-action@main
