@@ -13,24 +13,32 @@ jobs:
         uses: zentered/issue-forms-body-parser@main
         id: parse
 
-      - run: echo ${{ steps.parse.outputs.data}}
-      - run: echo ${{ toJSON(steps.parse.outputs.data)}}
-      - run: echo ${{ toJSON(steps.read_issue_body.output.body)}}
-      - run: echo ${{ steps.parse.outputs.data.name}}
-      - run: echo ${{ steps.parse.outputs.data.name.text}}
-      - run: echo ${{ steps.parse.outputs.data.name.info}}
-      - run: echo ${{ steps.parse.outputs.data.name.info.title}}
 
-      - name: Add issue data to yaml
-        uses: fjogeleit/yaml-update-action@main
-        with:
-          valueFile: '_data/links.yml'
-          propertyPath: ''
-          branch: master
-          targetBranch: master
-          createPR: true
-          message: 'Created PR for new link: ${{ steps.parse.outputs.data.name }}' 
-          changes: |
-            {
-              ${{ steps.parse.outputs.data.section.text }}.${{ steps.parse.outputs.data.name.text }}.info: ${{ steps.parse.outputs.data.info.text }}
-            }
+
+      - name: echo data
+        run: |
+          name=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .evento.text | sed 's/"//g')
+          section=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .site.text | sed 's/"//g')
+          url=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .tipo.text | sed 's/"//g')
+          location=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .local.text | sed 's/"//g')
+          info=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .mes.text | sed 's/"//g')
+
+          echo "name: $name"
+          echo "section: $section"
+          echo "url: $url"
+          echo "location: $location"
+          echo "info: $info"
+
+      # - name: Add issue data to yaml
+      #   uses: fjogeleit/yaml-update-action@main
+      #   with:
+      #     valueFile: '_data/links.yml'
+      #     propertyPath: ''
+      #     branch: master
+      #     targetBranch: master
+      #     createPR: true
+      #     message: 'Created PR for new link: ${{ steps.parse.outputs.data.name }}' 
+      #     changes: |
+      #       {
+      #         ${{ steps.parse.outputs.data.section.text }}.${{ steps.parse.outputs.data.name.text }}.info: ${{ steps.parse.outputs.data.info.text }}
+      #       }
