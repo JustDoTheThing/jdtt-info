@@ -29,16 +29,16 @@ jobs:
           echo "location: $location"
           echo "info: $info"
 
-      # - name: Add issue data to yaml
-      #   uses: fjogeleit/yaml-update-action@main
-      #   with:
-      #     valueFile: '_data/links.yml'
-      #     propertyPath: ''
-      #     branch: master
-      #     targetBranch: master
-      #     createPR: true
-      #     message: 'Created PR for new link: ${{ steps.parse.outputs.data.name }}' 
-      #     changes: |
-      #       {
-      #         ${{ steps.parse.outputs.data.section.text }}.${{ steps.parse.outputs.data.name.text }}.info: ${{ steps.parse.outputs.data.info.text }}
-      #       }
+      - name: Add issue data to yaml
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          valueFile: '_data/links.yml'
+          propertyPath: ''
+          branch: master
+          targetBranch: master
+          createPR: true
+          message: 'Created PR for new link: ${{ steps.parse.outputs.data.name }}' 
+          changes: |
+            {
+              $section.$name.info: $info,
+            }

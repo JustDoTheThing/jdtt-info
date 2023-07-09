@@ -1,4 +1,4 @@
-name: new-rec
+name: Suggest a new recommendation
 description: Add a new recommendation to the list
 title: "Suggest a new recommendation"
 labels: ["new"]
