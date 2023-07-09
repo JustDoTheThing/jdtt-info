@@ -34,7 +34,7 @@ jobs:
           valueFile: '_data/links.yml'
           propertyPath: ''
           branch: master
-          targetBranch: master
+          targetBranch: create-update-${{ github.sha }}
           createPR: true
           message: 'Created PR for new link: ${{ steps.extract.outputs.name }}' 
           changes: |
