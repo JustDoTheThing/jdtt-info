@@ -9,13 +9,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Parse Issue Body
+      - name: parse-issue-form
         uses: zentered/issue-forms-body-parser@main
         id: parse
 
-
-
-      - name: echo data
+      - name: extract-issue-data
+        id: extract
         run: |
           name=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .name.text | sed 's/"//g')
           section=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .section.text | sed 's/"//g')
@@ -23,11 +22,11 @@ jobs:
           location=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .location.text | sed 's/"//g')
           info=$(echo ${{ toJSON(steps.parse.outputs.data) }} | jq .info.text | sed 's/"//g')
 
-          echo "name: $name"
-          echo "section: $section"
-          echo "url: $url"
-          echo "location: $location"
-          echo "info: $info"
+          echo "name=$name" >> $GITHUB_OUTPUT
+          echo "section=$section" >> $GITHUB_OUTPUT
+          echo "url=$url" >> $GITHUB_OUTPUT
+          echo "location=$location" >> $GITHUB_OUTPUT
+          echo "info=$info" >> $GITHUB_OUTPUT
 
       - name: Add issue data to yaml
         uses: fjogeleit/yaml-update-action@main
@@ -37,8 +36,8 @@ jobs:
           branch: master
           targetBranch: master
           createPR: true
-          message: 'Created PR for new link: ${{ steps.parse.outputs.data.name }}' 
+          message: 'Created PR for new link: ${{ steps.extract.outputs.name }}' 
           changes: |
             {
-              $section.$name.info: $info,
+              ${{ steps.extract.outputs.section }}.${{ steps.extract.outputs.name }}.info: ${{ steps.extract.outputs.info }},
             }
