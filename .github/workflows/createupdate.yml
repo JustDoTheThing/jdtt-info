@@ -28,15 +28,31 @@ jobs:
           echo "location=$location" >> $GITHUB_OUTPUT
           echo "info=$info" >> $GITHUB_OUTPUT
 
-      - name: Add issue data to yaml
-        uses: fjogeleit/yaml-update-action@main
-        with:
-          valueFile: '_data/links.yml'
-          branch: create-update-${{ github.sha }}
-          targetBranch: master
-          createPR: true
-          message: 'Created PR for new link: ${{ steps.extract.outputs.name }}' 
-          changes: |
+      # - name: Add issue data to yaml
+      #   uses: fjogeleit/yaml-update-action@main
+      #   with:
+      #     valueFile: '_data/links.yml'
+      #     branch: create-update-${{ github.sha }}
+      #     targetBranch: master
+      #     createPR: true
+      #     message: 'Created PR for new link: ${{ steps.extract.outputs.name }}' 
+      #     changes: |
+      #       {
+      #         "${{ steps.extract.outputs.section }}.links.${{ steps.extract.outputs.name }}.info": "${{ steps.extract.outputs.info }}"
+      #       }
+      - name: add-issue-data
+        run: |
+          yq --yaml-output '.spec |= (
             {
-              "${{ steps.extract.outputs.section }}.links.${{ steps.extract.outputs.name }}.info": "${{ steps.extract.outputs.info }}"
-            }
+              ${{ steps.extract.outputs.section }}: {
+                links: [
+                  {
+                    name: ${{ steps.extract.outputs.name }},
+                    url: ${{ steps.extract.outputs.url }},
+                    location: ${{ steps.extract.outputs.location }},
+                    info: ${{ steps.extract.outputs.info }}
+                  }
+                ]
+              }
+            } + .
+          )' </tmp/your-yaml-file.yaml 
