@@ -27,10 +27,5 @@ jobs:
           debug: true 
           changes: |
             {
-              ${{ steps.parse.outputs.data.section }}.links.${{steps.parse.outputs.data.name}}: {
-                name: ${{ steps.parse.outputs.data.name }},
-                url: ${{ steps.parse.outputs.data.url }},
-                location: ${{ steps.parse.outputs.data.location }}
-                info: ${{ steps.parse.outputs.data.info }},
-              }
+              ${{ steps.parse.outputs.data.section }}.${{ steps.parse.outputs.data.name }}.info: ${{ steps.parse.outputs.data.info.text }}
             }
