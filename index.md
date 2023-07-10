@@ -5,9 +5,12 @@ layout: home
 # list_title: useful links :)
 ---
 
+Table of Contents
 {% for category in site.data.links %}
-* [{{ category.name }}](#{{ category.name }})   
+* *[{{ category.name }}](#{{ category.name }})*   
 {% endfor %}
+
+***
 
 {% for category in site.data.links %}
 
