@@ -6,7 +6,7 @@ layout: home
 ---
 
 {% for category in site.data.links %}
-[[{category.name}}](#{category.name}})   
+* [{{ category.name }}](#{{ category.name }})   
 {% endfor %}
 
 {% for category in site.data.links %}
