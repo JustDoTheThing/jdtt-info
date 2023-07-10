@@ -5,9 +5,11 @@ layout: home
 # list_title: useful links :)
 ---
 
-{% for category in site.data.links %}[{{ category.name }}](#{{ category.name }})* | {% endfor %}
+{% for category in site.data.links %}[{{ category.name }}](#{{ category.name }}) | {% endfor %}
 
-***
+
+
+
 
 {% for category in site.data.links %}
 
