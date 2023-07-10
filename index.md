@@ -6,8 +6,12 @@ layout: home
 ---
 
 {% for category in site.data.links %}
+[[{category.name}}](#{category.name}})   
+{% endfor %}
 
-### {{ category.name }}
+{% for category in site.data.links %}
+
+### {{ category.name }} <a name="{{ category.name }}">
 
 | Name | Location | Description |
 | --- | --- | --- |
