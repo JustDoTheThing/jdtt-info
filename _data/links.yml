@@ -62,6 +62,10 @@
     url: https://booksy.com/en-gb/104332_pure-aesthetics-by-sophie-rn_aesthetic-medicine_628476_manchester
     where: City Centre
     info: Inclusive for fillers etc
+  - name: Shallows
+    url: https://www.facebook.com/shallows.studio/
+    where: City Centre
+    info: Nails, Tats, Piercings    
 - name: Electrolysis
   links:
   - name: Siobhan
@@ -143,5 +147,14 @@
     url: https://www.nhs.uk/conditions/social-care-and-support-guide/help-from-social-services-and-charities/someone-to-speak-up-for-you-advocate/
     where: online
     info: NHS Advocacy Service
+- name: Support
+  links:
+  - name: LGBTQIA+ Swimming
+    url: https://northernwave.org/
+    where: Manchester
+    info: Trans supportive swimming
+
+
+    
     
     
