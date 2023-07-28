@@ -153,8 +153,15 @@
     url: https://northernwave.org/
     where: Manchester
     info: Trans supportive swimming
-
-
-    
+- name: Therapist
+  links:
+  - name: Find a therapist near you
+    url: https://www.counselling-directory.org.uk/adv-search.html
+    where: Online
+    info: 
+  - name: Pink Therapy
+    url: https://pinktherapy.com/find-a-therapist/
+    where: Online
+    info:     
     
     
