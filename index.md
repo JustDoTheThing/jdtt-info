@@ -5,10 +5,17 @@ layout: home
 # list_title: useful links :)
 ---
 
-{% for category in site.data.links %}[{{ category.name }}](#{{ category.name }}) | {% endfor %}
-
-
-
+<div style = "display: flex; flex-flow: row wrap">
+{% for category in site.data.links %}
+<div style = "
+    border: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    margin: 2px;
+    {% cycle '', 'background-color: #f7f7f7;' %}">
+    <a href="#{{ category.name }}">{{ category.name }}</a>
+</div>
+{% endfor %}
+</div>
 
 
 {% for category in site.data.links %}
@@ -21,3 +28,4 @@ layout: home
 {% endfor %}
 
 {% endfor %}
+
