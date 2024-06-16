@@ -3,7 +3,7 @@ title: Just Do The Thing
 
 instagram_username: justdothethingmcr
 
-theme: jekyll-theme-hacker
+theme: minima
 highlighter: rouge
 markdown: kramdown
 kramdown:
