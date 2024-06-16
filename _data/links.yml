@@ -1,5 +1,9 @@
 - name: Hair
   links:
+  - name: Ted something tbd
+    url: tbd or ask Bea
+    where: mobile 
+    info: he's really good and is also literally trans
   - name: Purple Rinse
     url: https://www.instagram.com/purplerinsesalon/
     where: City Centre
@@ -13,6 +17,7 @@
     where: City Centre
     info: Also has a bring a book exchange program, awesome humans
   - name: RCNQ
+    info: people recomend it but i've heard complaints, so...
     url: https://www.rcnq.co.uk/about-us
     where: City Centre
     info: Really inclusive
@@ -23,7 +28,7 @@
   - name: Bae Chop
     url: https://www.instagram.com/bae_chop
     where: Mobile
-    info: 
+    info:
 - name: Piercings
   links:
   - name: Holier Than Thou
