@@ -1,9 +1,9 @@
 - name: Hair
   links:
-  - name: Ted [something] tbd
-    url: tbd somewhere on instagram
-    where: mobile in manchester
-    info: he is good and also trans
+  - name: Ted Read Hair
+    url: https://www.instagram.com/tedread.hair/
+    where: mobile in Manchester
+    info: T4T haircuts, prices on a sliding scale with concessions for low-income etc.
   - name: Purple Rinse
     url: https://www.instagram.com/purplerinsesalon/
     where: City Centre
@@ -50,6 +50,10 @@
     url: https://www.instagram.com/pippa.ink/
     where: City Centre
     info: Fucking awesome human, hugely talented and super trans friendly
+  - name: Star Studio
+    url: https://www.instagram.com/starstudiostar/
+    where: City Centre, near Salford Central station
+    info: trans and queer owned tattoo studio, check them out!
 - name: Makeup
   links:
   - name: Born UK
