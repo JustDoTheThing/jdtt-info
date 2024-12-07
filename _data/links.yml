@@ -70,14 +70,13 @@
     url: https://www.instagram.com/thebeautygurusalon/
     where: Media City
     info: Botox, Brows, Skin.. lots, Super trans friendly
-  - name: Sophie at Shallows
-    url: https://booksy.com/en-gb/104332_pure-aesthetics-by-sophie-rn_aesthetic-medicine_628476_manchester
-    where: City Centre
+  - name: Joy by Sophie
+    url: https://booksy.com/en-gb/104332_joy-by-sophie-rn_aesthetic-medicine_628476_manchester#ba_s=seo
+    where: Chorlton
     info: Inclusive for fillers etc
-  - name: Shallows
-    url: https://www.facebook.com/shallows.studio/
-    where: City Centre
-    info: Nails, Tats, Piercings    
+  - name: Brow House
+    url: https://www.browhousemanchester.com/
+    where: Swinton
 - name: Electrolysis
   links:
   - name: Siobhan
@@ -86,6 +85,10 @@
     info: Fucking awesome human
 - name: Laser
   links:
+  - name: Javio
+    url: https://www.javivo.co.uk/
+    where: Manchester
+    info: 
   - name: The Laser Room
     url: https://www.fresha.com/a/the-laser-room-hyde-uk-178-market-street-yvhr01vc
     where: Hyde
@@ -187,3 +190,9 @@
     url: https://pinktherapy.com/find-a-therapist/
     where: Online
     info:
+- name: Physical Wellness
+  links:
+  - name: Evan Garrett
+    url: https://www.fresha.com/a/evan-garrett-queer-wellness-manchester-royal-exchange-manchester-old-bank-street-cfdhav9v
+    where: Manchester
+    info: Offers massages and PT, really supportive and friendly 
