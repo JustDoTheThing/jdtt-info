@@ -83,6 +83,7 @@
     url: https://skinspaceuk.com
     where: City Centre
     info: Do NHS electrolysis but are really pushy trying to sell you more sessions and other shit 
+- name: Laser
   links:
   - name: Javio
     url: https://www.javivo.co.uk/
@@ -92,6 +93,10 @@
     url: https://www.fresha.com/a/the-laser-room-hyde-uk-178-market-street-yvhr01vc
     where: Hyde
     info: Women only but inclusive of trans women
+  - name: SkinSpace
+    url: https://skinspaceuk.com
+    where: City Centre
+    info: Do NHS laser but are really pushy trying to sell you more sessions and other shit
 - name: Nails
   links:
   - name: Nails by Lyndsey
