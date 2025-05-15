@@ -16,10 +16,6 @@
     url: https://www.instagram.com/hex_hairdressing
     where: City Centre
     info: Also has a bring a book exchange program, awesome humans
-  - name: RCNQ
-    url: https://www.rcnq.co.uk/about-us
-    where: City Centre
-    info: Really inclusive
   - name: Melissa Timperyley
     url: https://www.melissa-salons.com
     where: City Centre
@@ -83,7 +79,10 @@
     url: https://www.electrolysisbysiobhan.co.uk/home
     where: Audenshaw
     info: Fucking awesome human
-- name: Laser
+  - name: SkinSpace
+    url: https://skinspaceuk.com
+    where: City Centre
+    info: Do NHS electrolysis but are really pushy trying to sell you more sessions and other shit 
   links:
   - name: Javio
     url: https://www.javivo.co.uk/
@@ -93,14 +92,6 @@
     url: https://www.fresha.com/a/the-laser-room-hyde-uk-178-market-street-yvhr01vc
     where: Hyde
     info: Women only but inclusive of trans women
-  - name: SKIN
-    url: https://www.sknclinics.co.uk/
-    where: City Centre
-    info: Two locations in Manchester, Albert Square and St Peter's Square, they do other skin treatments too
-  - name: Cypress Quay (Formally the Laser Lounge Media City)
-    url: https://cypressquay.com/
-    where: Media City
-    info: Laser hair removal, more expensive than SKN but people say it's better
 - name: Nails
   links:
   - name: Nails by Lyndsey
@@ -145,7 +136,7 @@
     url: https://www.boundarymedicalpractice.co.uk/
     where: Three Locations around the City Centre
     info: Will do bridging prescriptions
-  - name: Trans Friendly MPs Map
+  - name: Trans Friendly GPs Map
     url: https://www.transhealthcareintel.com/trans-friendly-gps
     where: online
   - name: The Northern Sexual Health
