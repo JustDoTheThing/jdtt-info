@@ -133,14 +133,18 @@
     info: Knickers (one style, not designed for trans women but a recommendation)
 - name: GPs
   links:
-  - name: Trans Friendly GPs List
-    url: https://docs.google.com/spreadsheets/d/1b5SSnb7LBUlWSjasN2ld7qPGmEchgDG8voUY-SkfAlw/edit#gid=0
-    info: List of GPs who are supportive
-    where: UK Wide
   - name: Cornbrook
     url: https://www.boundarymedicalpractice.co.uk/
     where: Three Locations around the City Centre
     info: Will do bridging prescriptions
+  - name: The Robert Darbishire Practice
+    url: https://rdp.org.uk
+    where: Rusholme
+    info: Does bridging prescriptions
+  - name: Trans Friendly GPs List
+    url: https://docs.google.com/spreadsheets/d/1b5SSnb7LBUlWSjasN2ld7qPGmEchgDG8voUY-SkfAlw/edit#gid=0
+    info: List of GPs who are supportive
+    where: UK Wide
   - name: Trans Friendly GPs Map
     url: https://www.transhealthcareintel.com/trans-friendly-gps
     where: online
